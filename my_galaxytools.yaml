@@ -1,0 +1,12 @@
+tools:
+- install_repository_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: true
+  name: oghma
+  owner: nicolas
+  revisions:
+  - e7115e44d8d8
+  tool_panel_section_id: oghma
+  tool_panel_section_label: Oghma
+  tool_shed_url: toolshed.g2.bx.psu.edu
+
