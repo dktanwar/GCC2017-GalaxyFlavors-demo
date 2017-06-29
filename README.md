@@ -1,5 +1,6 @@
 # GCC2017-GalaxyFlavors-demo
 Galaxy2017 Hackathon Galaxy Flavors demo in Ubuntu 16.04 in Docker
+Objective: create Galaxy flavor with genomic prediction/selection tools (oghma)
 
 Step by step done:
 Platform for Galaxy flavors hackathon is Ubuntu 16.04 VM running inside a Windows 7 Pro host machine.
@@ -45,7 +46,7 @@ $ sudo docker ps (gives running container ID to be used in next command)
 $ sudo docker exec -it <galaxy-con-ID> bash (gives interactive bash shell in the container)
 
 Step 1: Edit galaxy.ini in /etc/galaxy to activate webhooks (uncomment it, append /demo...)
-webhooks_dir = config/plugins/webhooks
+webhooks_dir = config/plugins/webhooks/demo
 
 Step 2: verify if <activate = true> in searchover.yaml ...
 $ cd /galaxy-central/config/plugins/webhooks/demo/search/config/
